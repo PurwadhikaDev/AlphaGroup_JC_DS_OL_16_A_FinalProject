@@ -5,6 +5,13 @@ by Alpha Group:
 - Kenneth Aleanda
 - Mochamad Dandi
 
+**Link Streamlit**
+https://finalproject-purwadhika-pcuobfkvrhf3qyffk82cnj.streamlit.app
+
+**Link Tableau**
+https://public.tableau.com/app/profile/ivanka.larasati/viz/shared/F2M7T2XTB
+![Dashboard 1](https://github.com/user-attachments/assets/85381308-321a-4bc9-93a5-d508416fba8b)
+
 ## Domain Knowledge
 
 ### Context
@@ -107,11 +114,107 @@ Dataset ini terdiri dari **8035 records** yang diambil dari syarah.com. Setiap r
 - Color: Orange.
 - Region: Sakaka, Wadi Dawasir, Arar.
 
----
-**Link Streamlit**
-https://finalproject-purwadhika-pcuobfkvrhf3qyffk82cnj.streamlit.app
+# Car Marketplace Data Analysis
 
-**Link Tableau**
-https://public.tableau.com/app/profile/ivanka.larasati/viz/shared/F2M7T2XTB
-![Dashboard 1](https://github.com/user-attachments/assets/85381308-321a-4bc9-93a5-d508416fba8b)
+## Domain Knowledge
+Understanding the factors influencing car sales, including price, brand popularity, fuel type, and other attributes, is crucial for optimizing a car marketplace platform.
+
+## Business Problem
+The goal is to improve user experience, increase engagement, and enhance conversion rates by leveraging data-driven insights to refine car listings, pricing strategies, and customer targeting.
+
+## Goals
+- Identify pricing patterns and trends.
+- Optimize search filters and recommendation systems.
+- Enhance customer engagement through personalized insights.
+- Improve sales conversion rates.
+
+## Business Questions
+- What are the key factors affecting car pricing?
+- How do different brands and car types impact demand?
+- What insights can be drawn from mileage and car age?
+- How can we improve customer experience through data-driven enhancements?
+
+## Evaluation Metrics
+- Click-through rate (CTR) on recommended listings.
+- Conversion rate (views to purchases).
+- Customer retention rate.
+- Average time spent per session.
+
+## Project Limitations
+- Data might not account for regional economic factors affecting pricing.
+- Limited historical data on certain car brands/models.
+- Potential inconsistencies in user-inputted data.
+
+## Data Features
+- Car brand
+- Model
+- Year of manufacture
+- Price
+- Fuel type
+- Mileage
+- Transmission type
+- Location
+- Condition (New/Used)
+
+## Summary of Findings
+- Price is significantly influenced by brand reputation and mileage.
+- Customers prefer automatic transmission over manual.
+- Fuel efficiency is a key deciding factor for many buyers.
+- Listings with detailed descriptions and multiple images have higher engagement.
+
+## Recommendation
+
+### **1. Data Analysis Insights**  
+#### **Price Segmentation**  
+- Membagi harga mobil ke dalam tiga kategori:  
+  - **Budget (<60,000)**  
+  - **Midrange (60,000 - 185,000)**  
+  - **High-end (>185,000)**  
+
+#### **Brand & Type Popularity**  
+- Menyediakan penawaran khusus dan menampilkan brand populer berdasarkan akses regional pelanggan.  
+
+#### **Gear Popularity**  
+- Menampilkan jenis gear tertentu tergantung pada harga yang dicari pelanggan berdasarkan **price_average**.  
+
+#### **Fuel Popularity**  
+- Memberikan **badge/flair/label** pada mobil sesuai dengan jenis bahan bakarnya untuk meningkatkan transparansi bagi pelanggan.  
+
+#### **Mileage & Age**  
+- Menyoroti mobil dengan **mileage rendah** jika usianya tua, terutama jika berada di bawah **price_average** untuk meningkatkan daya tariknya.  
+
+---
+
+### **2. Dataset Enhancements**  
+#### **Data Tambahan untuk Analisis Lebih Baik**  
+- **Menambahkan dataset populasi per region** untuk mengkategorikan area (Urban, Sub-Urban, Rural).  
+- **Menambahkan dataset history pencarian/query** pada platform untuk memahami pola pencarian pelanggan.  
+- **Menambahkan kolom kesehatan ban** untuk memberikan informasi tambahan mengenai kondisi mobil.  
+- **Menambahkan kolom riwayat servis beserta tempatnya** untuk meningkatkan transparansi kendaraan.  
+- **Menambahkan kolom kondisi interior dan eksterior** sebagai faktor tambahan dalam penentuan harga.  
+- **Menambahkan kolom modifikasi** untuk menampilkan perubahan yang dilakukan pada kendaraan.  
+
+---
+
+### **3. Business Impact & Revenue Opportunities**  
+#### **Meningkatkan Revenue dengan Customer Satisfaction**  
+- Fitur-fitur tambahan dapat meningkatkan pengalaman pelanggan, mempercepat transaksi, dan meningkatkan kepuasan.  
+
+#### **Targeted Marketing & Conversion Increase**  
+- Pemasaran yang lebih spesifik dapat menjangkau lebih banyak **potential customers**, sehingga meningkatkan **conversion rate**.  
+
+#### **Specified Region Advertisement**  
+- Menawarkan fitur **iklan regional** untuk penjual yang ingin mempromosikan mobilnya di wilayah tertentu.  
+
+#### **Customer Retention Strategy**  
+- **5% peningkatan dalam customer retention** dapat meningkatkan profit sebesar **25%-95%**[^1].  
+- Pelanggan yang sudah ada dapat membelanjakan hingga **300% lebih banyak** dibanding pelanggan baru.  
+- **Lebih hemat 5x lipat** dalam mempertahankan pelanggan lama dibandingkan mencari pelanggan baru.  
+
+#### **New Revenue Stream - Verified Listing Service**  
+- Dengan dataset tambahan, platform dapat menawarkan layanan **vehicle testing** sebelum penjualan.  
+- Jika mobil lolos tes, penjual dapat mendapatkan badge seperti **"Trusted Seller"** atau **"Tested"**, meningkatkan kepercayaan pembeli dan mempercepat penjualan. 
+---
+
+Thank you.
 
