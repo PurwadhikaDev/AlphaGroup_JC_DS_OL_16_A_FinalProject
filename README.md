@@ -1,4 +1,9 @@
-# Syarah Price Suggestion
+# Saudi Used Car Price Prediction
+
+by Alpha Group:
+Ivanka Larasati
+Kenneth Aleanda
+Mochamad Dandi
 
 ## Domain Knowledge
 
