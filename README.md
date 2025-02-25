@@ -1,9 +1,9 @@
 # Saudi Used Car Price Prediction
 
 by Alpha Group:
-Ivanka Larasati
-Kenneth Aleanda
-Mochamad Dandi
+- Ivanka Larasati
+- Kenneth Aleanda
+- Mochamad Dandi
 
 ## Domain Knowledge
 
